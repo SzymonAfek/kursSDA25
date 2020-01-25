@@ -8,6 +8,7 @@ public class Zad_14_histogram {
     /**
      * Stwórz program który generuje histogram z losowych liczb
      * jeszcze inne zmiana
+     * test change 2 31 23
      *
      * @param args
      */
