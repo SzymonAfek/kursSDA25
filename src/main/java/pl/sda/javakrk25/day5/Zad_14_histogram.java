@@ -7,6 +7,7 @@ public class Zad_14_histogram {
 
     /**
      * Stwórz program który generuje histogram z losowych liczb
+     * jeszcze inne zmiana
      *
      * @param args
      */
@@ -18,7 +19,7 @@ public class Zad_14_histogram {
             int randomNumber = random.nextInt(10);
             histogram[randomNumber]++;
         }
-
+// test kolizji
         for (int i = 0; i < histogram.length; i++) {
             System.out.println(String.format("%d -> %d", i, histogram[i]));
         }
