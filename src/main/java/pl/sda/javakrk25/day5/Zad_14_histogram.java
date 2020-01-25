@@ -7,12 +7,14 @@ public class Zad_14_histogram {
 
     /**
      * Stwórz program który generuje histogram z losowych liczb
+     * test branch change
      *
      * @param args
      */
     public static void main(String[] args) {
         int[] histogram = new int[10];
         Random random = new Random();
+// add something
 
         for (int i = 0; i < 1_000_000; i++) {
             int randomNumber = random.nextInt(10);
